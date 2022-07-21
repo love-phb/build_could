@@ -7,17 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="project" />
+        <module name="spring-camel" />
         <module name="nacos-config-client" />
         <module name="nacos-server" />
         <module name="warehouse-service" />
+        <module name="nacos-config" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-config" options="-parameters" />
       <module name="nacos-config-client" options="-parameters" />
       <module name="nacos-server" options="-parameters" />
       <module name="project" options="" />
+      <module name="spring-camel" options="-parameters" />
       <module name="warehouse-service" options="-parameters" />
     </option>
   </component>
