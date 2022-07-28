@@ -1,0 +1,19 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ò©ª™
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ò©ª™
+Q	java:S125"<This block of commented-out lines of code should be removed.(ò¹«ž
+I
+java:S2440)".Remove this instantiation of "OrderToCsvBean".(ü©Ðýúÿÿÿÿ
+V	java:S1252"<This block of commented-out lines of code should be removed.(ÃµÂ—ûÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(ðŸ„Í
+\
+java:S1128"ARemove this unused import 'com.camel.controller.CamelController'.(öéÏÂÿÿÿÿÿ
+U
+java:S1128":Remove this unused import 'org.apache.camel.CamelContext'.(¸ò¬Žùÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'org.apache.camel.Exchange'.(Á­¸
+S
+java:S1128"8Remove this unused import 'org.apache.camel.Expression'.(§¾ß†ÿÿÿÿÿ
+U
+java:S1128	":Remove this unused import 'org.apache.camel.LoggingLevel'.(º‰ÕÑüÿÿÿÿ
